@@ -1,0 +1,56 @@
+{
+  "bin": {
+    "substrate": "./dist/index.js"
+  },
+  "preferGlobal": true,
+  "name": "@tsb/substrate",
+  "version": "0.2.0",
+  "description": "Genrative cli tool - based on http://www.complexification.net/gallery/machines/\nsubstrate/\nby Jared S Tarbell @jaredtarbell\nritten for CityLAB Berlin\nby Fabian Morón Zirfas @fabianmoronzifas",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsc -p . -w",
+    "build": "tsc -p .",
+    "prepare": "npm run build",
+    "nodemon": "nodemon"
+  },
+  "keywords": [
+    "substrate",
+    "generative",
+    "svg",
+    "graphics",
+    "canvas"
+  ],
+  "author": "Fabian Morón Zirfas",
+  "license": "MIT",
+  "devDependencies": {
+    "cz-conventional-changelog": "^2.1.0",
+    "nodemon": "^1.19.1",
+    "ts-node": "^8.2.0",
+    "tslint": "^5.17.0",
+    "typescript": "^3.5.1"
+  },
+  "dependencies": {
+    "@types/node": "^12.0.7",
+    "canvas": "^2.5.0",
+    "meow": "^5.0.0",
+    "node-gameloop": "^0.1.4",
+    "ora": "^3.4.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/technologiestiftung/citylab-plotter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/technologiestiftung/citylab-plotter/issues"
+  },
+  "homepage": "https://github.com/technologiestiftung/citylab-plotter#readme"
+}
