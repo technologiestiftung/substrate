@@ -26,14 +26,16 @@ npm install @tsb/substrate -g
   Usage:
     $ substrate input [flags]
     $ substrate path/to/outfile.svg --duration 60
-    $ substrate path/to/outfile.svg --duration 60 --width 841 --height 1149
-    $ substrate path/to/outfile.svg --duration 60 --width 841 --height 1149 --maxcracks 200
-
+    $ substrate path/to/outfile.svg --duration 60 --width 841 --height 1189
+    $ substrate path/to/outfile.svg --duration 60 --width 841 --height 1189 --maxcracks 200
+    $ substrate path/to/outfile.svg --duration 60 --width 841 --height 1189 --maxcracks 200 --linefilter 5
   Flags:
     --duration  -d {string} Duration tu run the substrate in seconds. Default: 60
     --height    -h {string} Height of the output svg. Default: 1189 (A0 if 1px === 1mm)
     --width     -w {string} Width of the output svg. Default: 841 (A0 if 1px === 1mm)
     --maxcracks -m {string} Maximum number of cracks computed in parallel. Default: 200
+    --linefilter -l {string} Minimum line length to take in account.
+        Everything shorter will not be calculated. 1px === 1mm
 ```
 
 ## Related
