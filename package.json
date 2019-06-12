@@ -47,10 +47,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/technologiestiftung/citylab-plotter.git"
+    "url": "git+https://github.com/technologiestiftung/substrate.git"
   },
   "bugs": {
-    "url": "https://github.com/technologiestiftung/citylab-plotter/issues"
+    "url": "https://github.com/technologiestiftung/substrate/issues"
   },
-  "homepage": "https://github.com/technologiestiftung/citylab-plotter#readme"
+  "homepage": "https://github.com/technologiestiftung/substrate#readme"
 }
